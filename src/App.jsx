@@ -47,6 +47,7 @@ function App() {
 
     if (respose.ok) {
       setResult("User created!")
+      getUsers()
     } else {
       setResult("User was not created!")
     }
